@@ -29,6 +29,18 @@ body {
     }
 }
 
+@media (max-height: 700px) {
+    .banner {
+        padding-top: 15vh;
+    }
+}
+
+@media (max-width: 989px) {
+    .banner {
+        background-attachment: scroll;
+    }
+}
+
 .down_arrow {
     height: 50px;
     width: 50px;
@@ -83,7 +95,6 @@ button:hover {
     background: #1768ac;
 }
 
-/* General FAQ Styles */
 .accordion-button {
     background: #f8f9fa;
     color: #333;
@@ -175,7 +186,7 @@ button:hover {
     display: flex;
     /* align-items: center; */
     justify-content: center;
-    margin-top: 6vh;
+    margin-top: 80px;
 }
 
 .silver {
@@ -244,6 +255,20 @@ button:hover {
         font-size: 80px;
         top: -30px;
     }
+}
+
+@media (max-width: 800px) {
+    .podium {
+        margin-top: 6vh;
+    }
+    .podium-prize {
+        font-size: 4vw;
+        font-weight: bold;
+        top: -30px;
+    }
+}
+
+@media (max-width: 500px) {
     .podium-prize {
         font-size: 6vw;
         font-weight: bold;
